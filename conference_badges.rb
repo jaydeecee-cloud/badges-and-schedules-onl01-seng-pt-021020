@@ -5,7 +5,7 @@ end
 
 def batch_badge_creater(attendees)
   array = []
-  attendees.each { |name| array << badge_maker(name) }
+  conferencebadges.each { |name| array << badge_maker(name) }
   array
 end
 
